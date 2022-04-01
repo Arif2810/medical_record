@@ -43,6 +43,9 @@ if(!isset($_SESSION['user'])){
           <a href=""><span class="text-primary">Rumah Sakit</span></a>
         </li>
         <li>
+        <img src="<?= base_url(); ?>/_assets/images/logo-2-removebg.png" width="80" class="rounded mx-auto d-block" alt="...">
+        </li>
+        <li>
           <a href="<?= base_url('dashboard'); ?>">Dashboard</a>
         </li>
         <li>
