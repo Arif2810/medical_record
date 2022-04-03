@@ -19,12 +19,32 @@ include_once('../_header.php');
 					<input type="text" name="nama" id="nama" class="form-control" required="" autofocus="">
 				</div>
 				<div class="form-group">
+					<label for="nno_strama">No STR</label>
+					<input type="text" name="no_str" id="no_str" class="form-control" required="" autofocus="">
+				</div>
+				<div class="form-group">
+					<label for="no_surat_ijin">No Surat Ijin</label>
+					<input type="text" name="no_surat_ijin" id="no_surat_ijin" class="form-control" required="" autofocus="">
+				</div>
+				<div class="form-group">
+					<label for="umur">Umur</label>
+					<input type="text" name="umur" id="umur" class="form-control" required="" autofocus="">
+				</div>
+				<div class="form-group">
 					<label for="spesialis">Spesialis</label>
 					<input type="text" name="spesialis" id="spesialis" class="form-control" required="">
 				</div>
 				<div class="form-group">
-					<label for="alamat">Alamat</label>
-					<textarea name="alamat" id="alamat" class="form-control" required=""></textarea>
+					<label for="alamat_camp">Alamat Camp</label>
+					<textarea name="alamat_camp" id="alamat_camp" class="form-control" required=""></textarea>
+				</div>
+				<div class="form-group">
+					<label for="alamat_rumah">Alamat Rumah</label>
+					<textarea name="alamat_rumah" id="alamat_rumah" class="form-control" required=""></textarea>
+				</div>
+				<div class="form-group">
+					<label for="rs_client">RS Client</label>
+					<input type="text" name="rs_client" id="rs_client" class="form-control" required="">
 				</div>
 				<div class="form-group">
 					<label for="telp">No. Telepon</label>

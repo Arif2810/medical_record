@@ -22,8 +22,13 @@
 							</th>
 							<th>No.</th>
 							<th>Nama Dokter</th>
+							<th>No STR</th>
+							<th>No Surat Ijin Praktek</th>
+							<th>Umur</th>
 							<th>Spesialis</th>
-							<th>Alamat</th>
+							<th>Alamat Camp</th>
+							<th>Alamat Rumah</th>
+							<th>RS Client</th>
 							<th>No. Telepon</th>
 							<th><i class="glyphicon glyphicon-cog"></i></th>
 						</tr>
@@ -39,8 +44,13 @@
 								</td>
 								<td><?= $no++; ?>.</td>
 								<td><?= $data['nama_dokter']; ?></td>
+								<td><?= $data['no_str']; ?></td>
+								<td><?= $data['no_surat_ijin']; ?></td>
+								<td><?= $data['umur']; ?></td>
 								<td><?= $data['spesialis']; ?></td>
-								<td><?= $data['alamat']; ?></td>
+								<td><?= $data['alamat_camp']; ?></td>
+								<td><?= $data['alamat_rumah']; ?></td>
+								<td><?= $data['rs_client']; ?></td>
 								<td><?= $data['no_telp']; ?></td>
 								<td align="center">
 									<a href="edit.php?id=<?= $data['id_dokter']; ?>" class="btn btn-warning btn-xs"><i class="glyphicon glyphicon-edit"></i></a>
@@ -54,7 +64,7 @@
 			</div>
 		</form>
 
-		<div class="box">
+		<div class="box" style="margin-top: 20px;">
 			<button class="btn btn-danger btn-sm" onclick="hapus()"><i class="glyphicon glyphicon-trash"></i> Hapus</button>
 		</div>
 
