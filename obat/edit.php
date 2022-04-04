@@ -24,8 +24,28 @@ include_once('../_header.php');
 					<input type="text" name="nama" value="<?= $data['nama_obat'] ?>" class="form-control" required="" autofocus="">
 				</div>
 				<div class="form-group">
+					<label for="dosis">Dosis</label>
+					<input type="text" name="dosis" value="<?= $data['dosis'] ?>" class="form-control" required="" autofocus="">
+				</div>
+				<div class="form-group">
+					<label for="komposisi">Komposisi</label>
+					<input type="text" name="komposisi" value="<?= $data['komposisi'] ?>" class="form-control" required="" autofocus="">
+				</div>
+				<div class="form-group">
 					<label for="ket">Keterangan</label>
 					<textarea name="ket" id="ket" class="form-control" required=""><?= $data['ket_obat'] ?></textarea>
+				</div>
+				<div class="form-group">
+					<label for="tgl_kadaluarsa">Tanggal Kadaluarsa</label>
+					<input type="date" name="tgl_kadaluarsa" value="<?= $data['tgl_kadaluarsa'] ?>" class="form-control" required="" autofocus="">
+				</div>
+				<div class="form-group">
+					<label for="efek_samping">Efek Samping</label>
+					<input type="text" name="efek_samping" value="<?= $data['efek_samping'] ?>" class="form-control" required="" autofocus="">
+				</div>
+				<div class="form-group">
+					<label for="perusahaan_pembuat">Nama Perusahaan</label>
+					<input type="text" name="perusahaan_pembuat" value="<?= $data['perusahaan_pembuat'] ?>" class="form-control" required="" autofocus="">
 				</div>
 				<div class="form-group">
 					<input type="submit" name="edit" value="Simpan" class="btn btn-success">
