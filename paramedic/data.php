@@ -18,6 +18,12 @@
 							<th>No.</th>
 							<th>Nama</th>
 							<th>Username</th>
+							<th>No STR</th>
+							<th>Umur</th>
+							<th>RS Client</th>
+							<th>Alamat Camp</th>
+							<th>Alamat Rumah</th>
+							<th>No Telepon</th>
 							<th>Level</th>
               <th><i class="glyphicon glyphicon-cog"></i></th>
 						</tr>
@@ -31,6 +37,12 @@
               <td><?= $no++; ?></td>
               <td><?= $data['nama_user']; ?></td>
               <td><?= $data['username']; ?></td>
+              <td><?= $data['no_str']; ?></td>
+              <td><?= $data['umur']; ?></td>
+              <td><?= $data['rs_client']; ?></td>
+              <td><?= $data['alamat_camp']; ?></td>
+              <td><?= $data['alamat_rumah']; ?></td>
+              <td><?= $data['no_telp']; ?></td>
               <td><?= $data['level']; ?></td>
               <?php if($data['level'] == 1){ ?>
                 <td></td>

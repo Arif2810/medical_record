@@ -17,7 +17,7 @@
 						<th>#</th>
 						<th>Nama Paramedic</th>
 						<th>Username</th>
-						<th>Pasword</th>
+						<th>No STR</th>
 					</tr>
           <tr>
             <td></td>
@@ -28,10 +28,53 @@
               <input type="text" name="username" class="form-control" required>
             </td>
             <td>
+              <input type="text" name="no_str" class="form-control" required>
+            </td>
+          </tr>
+				</table>
+
+				<table class="table">
+					<tr>
+						<th>#</th>
+						<th>Umur</th>
+						<th>RS Client</th>
+						<th>Alamat Camp</th>
+					</tr>
+          <tr>
+            <td></td>
+            <td>
+              <input type="text" name="umur" class="form-control" required>
+            </td>
+            <td>
+              <input type="text" name="rs_client" class="form-control" required>
+            </td>
+            <td>
+              <input type="text" name="alamat_camp" class="form-control" required>
+            </td>
+          </tr>
+				</table>
+
+				<table class="table">
+					<tr>
+						<th>#</th>
+						<th>Alamat Rumah</th>
+						<th>No Telepon</th>
+						<th>Password</th>
+					</tr>
+          <tr>
+            <td></td>
+            <td>
+              <input type="text" name="alamat_rumah" class="form-control" required>
+            </td>
+            <td>
+              <input type="text" name="no_telp" class="form-control" required>
+            </td>
+            <td>
               <input type="password" name="password" class="form-control" required>
             </td>
           </tr>
 				</table>
+
 				<div class="form-group">
 					<input type="submit" name="add" value="Simpan" class="btn btn-success">
 				</div>
