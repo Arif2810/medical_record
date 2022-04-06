@@ -25,6 +25,8 @@
 							<th>Obat</th>
 							<th>RS Rujukan</th>
 							<th>Paramedic</th>
+							<th>Tgl MCU Tahunan</th>
+							<th>Keterangan MCU Tahunan</th>
 							<th><i class="glyphicon glyphicon-cog"></i></th>
 						</tr>
 					</thead>
@@ -55,6 +57,8 @@
 								</td>
 								<td><?= $data['rujukan'] ?></td>
 								<td><?= $data['paramedic'] ?></td>
+								<td><?= $data['tgl_mcu_tahunan'] ?></td>
+								<td><?= $data['ket_mcu_tahunan'] ?></td>
 								<td align="center">
 									<a href="edit.php?id=<?= $data['id_rm'] ?>" class="btn btn-warning btn-xs"><i class="glyphicon glyphicon-edit"></i></a>
 									<a href="del.php?id=<?= $data['id_rm']; ?>" class="btn btn-danger btn-xs" onclick="return confirm('Yakin menghapus data?')"><i class="glyphicon glyphicon-trash"></i></a>

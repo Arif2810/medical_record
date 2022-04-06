@@ -54,7 +54,7 @@ include_once('../_header.php');
 				</div>
 				<div class="form-group">
 					<label for="obat">Obat</label>
-					<select multiple="" size="7" name="obat[]" id="obat" class="form-control" required="">
+					<select multiple="" size="7" name="obat[]" id="obat" class="form-control">
 						<?php
 						$sql_obat = mysqli_query($con, "SELECT * FROM tb_obat") or die(mysqli_error($con));
 						while($data_obat = mysqli_fetch_array($sql_obat)){
@@ -65,6 +65,14 @@ include_once('../_header.php');
 				<div class="form-group">
 					<label for="rujukan">RS Rujukan</label>
 					<input type="text" name="rujukan" id="rujukan" class="form-control" required>
+				</div>
+				<div class="form-group">
+					<label for="tgl_mcu_tahunan">MCU Tahunan</label>
+					<input type="date" name="tgl_mcu_tahunan" id="mcu_tahunan" class="form-control">
+				</div>
+				<div class="form-group">
+					<label for="ket_mcu_tahunan">Keterangan MCU Tahunan</label>
+					<input type="text" name="ket_mcu_tahunan" id="ket_mcu_tahunan" class="form-control">
 				</div>
 				<div class="form-group">
 					<input type="reset" name="reset" value="Reset" class="btn btn-default">

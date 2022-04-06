@@ -106,6 +106,14 @@ include_once('../_header.php');
 					<input type="text" name="rujukan" id="rujukan" class="form-control" value="<?= $data['rujukan'] ?>" required="">
 				</div>
 				<div class="form-group">
+					<label for="tgl_mcu_tahunan">Tgl MCU Tahunan</label>
+					<input type="date" name="tgl_mcu_tahunan" id="tgl_mcu_tahunan" class="form-control" value="<?= $data['tgl_mcu_tahunan'] ?>" required="">
+				</div>
+				<div class="form-group">
+					<label for="ket_mcu_tahunan">Keterangan MCU Tahunan</label>
+					<input type="text" name="ket_mcu_tahunan" id="ket_mcu_tahunan" class="form-control" value="<?= $data['ket_mcu_tahunan'] ?>" required="">
+				</div>
+				<div class="form-group">
 					<input type="reset" name="reset" value="Reset" class="btn btn-default">
 					<input type="submit" name="edit" value="Simpan" class="btn btn-success">
 				</div>
