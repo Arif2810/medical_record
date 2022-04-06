@@ -69,9 +69,14 @@ else{
     </div>
   </div>
 
+  <div class="navbar navbar-fixed-bottom">
+    <div class="container">
+      <strong><p class="text-danger">@2022 Created by IT <span style="margin-left:60%">Production Klinik PT GAM SEMPAYAU KUTIM</span></p></strong>
+    </div>
+  </div>
+
   <script src="<?= base_url('_assets/js/jquery.js'); ?>"></script>
   <script src="<?= base_url('_assets/js/bootstrap.min.js'); ?>"></script>
-
 </body>
 </html>
 
