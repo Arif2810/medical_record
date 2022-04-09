@@ -66,6 +66,9 @@ if(!isset($_SESSION['user'])){
           <a href="<?= base_url('rekammedis/data.php') ?>">Rekam Medis</a>
         </li>
         <li>
+          <a href="<?= base_url('laporan/filter_laporan.php') ?>">Laporan Periodik</a>
+        </li>
+        <li>
           <a href="<?= base_url('ganti_password/data.php') ?>">Ganti Password</a>
         </li>
         <li>
